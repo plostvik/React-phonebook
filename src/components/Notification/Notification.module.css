@@ -1,0 +1,40 @@
+.notification {
+  position: absolute;
+  right: 40px;
+  top: 100px;
+  max-width: 270px;
+  background-color: #eb5a46;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  overflow: hidden;
+  padding: 8px;
+  box-shadow: 0 20px 32px -8px rgba(9, 30, 66, 0.25),
+    0 0 0 1px rgba(9, 30, 66, 0.08);
+}
+
+.enter {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 250ms linear;
+}
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+}
+.exit {
+  opacity: 1;
+  transition: all 250ms linear;
+  transform: translateX(0);
+}
+.exitActive {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* .enterDone {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 250ms linear;
+} */

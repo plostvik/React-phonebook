@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.message {
+  color: white;
+  margin-right: 10px;
+}

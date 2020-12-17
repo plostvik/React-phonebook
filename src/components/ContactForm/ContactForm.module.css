@@ -1,0 +1,70 @@
+.contactform {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 20px;
+  color: white;
+}
+
+.input {
+  display: block;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 350px;
+
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 18px;
+
+  color: white;
+
+  transition-duration: 0.25s;
+  font-weight: 300;
+}
+
+.input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.input:focus {
+  background-color: white;
+  width: 380px;
+
+  color: black;
+}
+
+.button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: 350px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+}
+
+.button:hover {
+  background-color: rgb(245, 247, 249);
+}
+
+.regMessage {
+  color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+}

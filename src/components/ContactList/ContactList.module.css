@@ -1,0 +1,26 @@
+.contactList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  color: white;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 250ms linear;
+}
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+}
+.exit {
+  opacity: 1;
+  transition: all 250ms linear;
+  transform: translateX(0);
+}
+.exitActive {
+  opacity: 0;
+  transform: translateX(-100%);
+}

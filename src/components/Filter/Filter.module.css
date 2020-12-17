@@ -1,0 +1,13 @@
+.label {
+  margin-top: 15px;
+  composes: label from '../ContactForm/ContactForm.module.css';
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  composes: input from '../ContactForm/ContactForm.module.css';
+}

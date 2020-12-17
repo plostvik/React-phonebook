@@ -1,0 +1,17 @@
+.link {
+  padding: 20px 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.link:hover {
+  background-color: #2581dc;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 40px;
+}
