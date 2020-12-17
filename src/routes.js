@@ -1,4 +1,5 @@
 import { lazy } from 'react';
+import { Redirect } from 'react-router-dom';
 
 const routesPath = {
   REGISTER: '/register',
@@ -7,6 +8,14 @@ const routesPath = {
 };
 
 const routes = [
+  {
+    path: '/',
+    label: 'Home',
+    exact: true,
+    component: () => <Redirect to="/login" />,
+    private: false,
+    restricted: false,
+  },
   {
     path: routesPath.REGISTER,
     label: 'Register',
