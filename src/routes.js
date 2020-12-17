@@ -7,11 +7,6 @@ const routesPath = {
 };
 
 const routes = [
-  //   {
-  //     path: routesPath.HOME,
-  //     exact: true,
-  //     component: HomePage,
-  //   },
   {
     path: routesPath.REGISTER,
     label: 'Register',
